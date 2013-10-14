@@ -1,1 +1,1 @@
-module.exports = require('./lib/jwt-validator');
+module.exports = require('./lib/validator');
