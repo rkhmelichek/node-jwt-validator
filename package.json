@@ -1,0 +1,29 @@
+{
+  "name": "jwt-validator",
+  "description": "Handles encoding and decoding (plus validation) of JSON Web Tokens that are digitally signed using JSON Web Signature (JWS)",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "underscore": "~1.5.2"
+  },
+  "devDependencies": {
+    "async": "~0.2.9",
+    "mocha": "~1.13.0",
+    "should": "~2.0.1",
+    "sinon": "~1.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/rkhmelichek/node-jwt-validator.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec --ui bdd"
+  },
+  "author": {
+    "name": "Roman Khmelichek",
+    "url": "http://github.com/rkhmelichek"
+  },
+  "engines": [
+    "node >= 0.10.2"
+  ]
+}
